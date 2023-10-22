@@ -9,7 +9,7 @@ START_URLS = [
 ]
 
 CATEGORY_API = "https://maksavit.ru/api{slug}?analogsSummary=1&hideFilter=1&page={page}"
-CATEGORY_HEADERS = headers = {
+CATEGORY_HEADERS = {
     'Accept': 'application/json, text/plain, */*',
     'Accept-Language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
     'Connection': 'keep-alive',
