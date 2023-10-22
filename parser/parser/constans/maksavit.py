@@ -1,12 +1,15 @@
 
 START_URLS = [
-    # "https://maksavit.ru/catalog/4774/",
-    'https://maksavit.ru/novosibirsk/catalog/flebologiya/venotoniki_vnutr/',
-    # 'https://maksavit.ru/velikij-novgorod/catalog/vitaminy/'
+    # 'https://maksavit.ru/novosibirsk/catalog/dietologiya/batonchiki_dlya_pokhudeniya/',
+    # 'https://maksavit.ru/novosibirsk/catalog/med_tekhnika/irrigatory/',
+    # 'https://maksavit.ru/novosibirsk/catalog/diagnostika/testy_na_razlichnye_infektsii/',
+    # 'https://maksavit.ru/novosibirsk/catalog/dermatovenerologiya/antiseptiki/',
+    # 'https://maksavit.ru/novosibirsk/catalog/ukhod_za_bolnym/enteralnoe_pitanie/'
+
 ]
 
 CATEGORY_API = "https://maksavit.ru/api{slug}?analogsSummary=1&hideFilter=1&page={page}"
-CATEGORY_HEADERS = headers = {
+CATEGORY_HEADERS = {
     'Accept': 'application/json, text/plain, */*',
     'Accept-Language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
     'Connection': 'keep-alive',
